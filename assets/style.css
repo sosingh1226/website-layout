@@ -1,3 +1,58 @@
-h1 {
-    color:red;
+nav {
+height: 10vh;
+background-color: blue;
+position: relative;
+}
+
+main{
+height: 80vh;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left {
+    background-color: yellow;
+    float: right;
+}
+
+.right {
+    background-color: cyan;
+    float: left;
+}
+
+.left, 
+.right {
+    height: 80 vh;
+    width: 50%;
+}
+
+footer {
+    height: 10vh;
+    background-color: blue
+}
+
+.nav-links {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0%, -50%);
+  }
+
+.nav-links li {
+    display: inline;
+
+}
+
+.nav-links li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
 }
