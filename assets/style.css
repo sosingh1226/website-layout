@@ -16,17 +16,17 @@ height: 80vh;
 
 .left {
     background-color: yellow;
-    float: right;
+    float: left;
 }
 
 .right {
     background-color: cyan;
-    float: left;
+    float: right;
 }
 
 .left, 
 .right {
-    height: 80 vh;
+    height: 80vh;
     width: 50%;
 }
 
