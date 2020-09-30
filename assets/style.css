@@ -22,12 +22,24 @@ height: 80vh;
 .right {
     background-color: cyan;
     float: right;
+    position: relative;
 }
 
 .left, 
 .right {
     height: 80vh;
     width: 50%;
+}
+
+.center {
+position: absolute;
+background-color: black;
+height: 60px;
+width: 60px;
+border-radius: 15px;
+top: 50%;
+left: 50%;
+transform: translate (-50%, 50%)
 }
 
 footer {
