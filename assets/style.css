@@ -4,6 +4,28 @@ background-color: blue;
 position: relative;
 }
 
+.nav-links {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0%, -50%);
+  }
+
+.nav-links li {
+    display: inline;
+
+}
+
+.nav-links li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 main{
 height: 80vh;
 }
@@ -14,15 +36,15 @@ height: 80vh;
     display: block;
 }
 
-.left {
-    background-color: yellow;
-    float: left;
-}
-
 .right {
     background-color: cyan;
     float: right;
     position: relative;
+}
+
+.left {
+    background-color: yellow;
+    float: left;
 }
 
 .center {
@@ -48,24 +70,36 @@ footer {
     background-color: blue
 }
 
-.nav-links {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translate(0%, -50%);
-  }
-
-.nav-links li {
-    display: inline;
-
+.top { 
+    height: 50%;
+    background-color: red;
 }
 
-.nav-links li:not(:last-child) {
-    margin-right: 10px;
-}
 
-.nav-links li a {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 25px;
+.grid1 {
+    height: 50%;
+    width: 50%;
+    background-color: lavenderblush;
+    float: left;
+}
+  
+.grid2 {
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+    float: left;
+}
+  
+.grid3 {
+    height: 50%;
+    width: 50%;
+    background-color: greenyellow;
+    float: left;
+}
+  
+.grid4 {
+    height: 50%;
+    width: 50%;
+    background-color: hotpink;
+    float: left;
 }
